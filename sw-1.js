@@ -1,7 +1,7 @@
 const CACHE = 'mcfa-v2';
 const FILES = [
   './',
-  './MCFA_PROJECT_fixed-4.html',
+  './MCFA_PROJECT.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
