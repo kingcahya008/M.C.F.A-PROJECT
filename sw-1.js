@@ -33,7 +33,7 @@ self.addEventListener('fetch', e => {
         if (res && res.ok) cache.put(e.request, res.clone());
         return res;
       }).catch(() =>
-        cache.match(e.request).then(r => r || cache.match('./MCFA_PROJECT_fixed-4.html'))
+        cache.match(e.request).then(r => r || cache.match('./MCFA_PROJECT.html'))
       )
     )
   );
