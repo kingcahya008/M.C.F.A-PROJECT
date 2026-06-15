@@ -1,8 +1,8 @@
 {
-  "name": "M.C.F.A PROJECT \u2014 MC. Fathul Adzim",
-  "short_name": "MCFA PROJECT",
+  "name": "F.A PROJECT \u2014 Fathul Adzim",
+  "short_name": "F.A PROJECT",
   "description": "Blueprint Kehidupan MC. Fathul Adzim \u00b7 2026\u20132029",
-  "start_url": "./MCFA_PROJECT.html",
+  "start_url": "./FA_PROJECT.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
