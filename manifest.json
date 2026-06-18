@@ -2,7 +2,7 @@
   "name": "M.C.F.A PROJECT",
   "short_name": "MCFA PROJECT",
   "description": "Personal Operating System — Blueprint Kehidupan, Identitas, Karir & Keuangan MC. Fathul Adzim",
-  "start_url": "/M.C.F.A.html",
+  "start_url": "/MCFA.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
@@ -29,19 +29,19 @@
     {
       "name": "Aktivitas",
       "short_name": "Aktivitas",
-      "url": "/M.C.F.A.html#aktivitas",
+      "url": "/MCFA.html#aktivitas",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Identitas",
       "short_name": "Identitas",
-      "url": "/M.C.F.A.html#identitas",
+      "url": "/MCFA.html#identitas",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Keuangan",
       "short_name": "Keuangan",
-      "url": "/M.C.F.A.html#keuangan",
+      "url": "/MCFA.html#keuangan",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ],
