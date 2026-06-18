@@ -3,10 +3,10 @@
    Offline-first · Cache-first · Premium PWA
 ═══════════════════════════════════════════════════ */
 
-const CACHE_NAME = 'mcfa-v3';
+const CACHE_NAME = 'M.C.F.A';
 const STATIC_ASSETS = [
   './',
-  './FA_PROJECT.html',
+  './M.C.F.A.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
@@ -72,9 +72,9 @@ self.addEventListener('fetch', event => {
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         return res;
       }).catch(() => {
-        // Offline fallback — tampilkan FA_PROJECT.html
+        // Offline fallback — tampilkan M.C.F.A.html
         if (event.request.destination === 'document') {
-          return caches.match('./FA_PROJECT.html');
+          return caches.match('./M.C.F.A.html');
         }
       });
     })
